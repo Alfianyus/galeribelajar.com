@@ -168,27 +168,31 @@ if (!isset($_SESSION['username'])) {
 <html>
 <head>
 <meta charset="utf-8">
-<title>Untitled Document</title>
+<title>galeribelajar</title>
 </head>
+<img src="media/tooplate_logo.jpg" align="right">
 
 <body background="media/1.jpg">
-<table width="561" border="1">
+     <?php echo "<h1> " . $_SESSION['username'] . "</h1>"; ?>
+    <a href="logout.php"> <img src="media/images.png" width="50">Keluar</a>
+    
+<table width="361" border="0" align="center">
   <tbody>
     <tr>
-      <td><img src="media/Picture2.png" width="300"></td>
-      <td><img src="media/Picture7.png" width="300"></td>
-      <td><img src="media/Picture8.png" width="300"></td>
+      <td><img src="media/Picture2.png" width="200"></td>
+      <td><img src="media/Picture7.png" width="200"></td>
+      <td><img src="media/Picture8.png" width="200"></td>
       
     </tr>
     <tr>
-      <td rowspan="3"><img src="media/gambar1.png" width="300"></td>
-      <td rowspan="3"><img src="media/gambar2.png" width="300"></td>
-      <td><img src="media/gambar3.png" width="300"></td>
+      <td rowspan="3"><img src="media/gambar1.png" width="200"></td>
+      <td rowspan="3"><img src="media/gambar2.png" width="200"></td>
+      <td><img src="media/gambar3.png" width="200"></td>
       <td></td>
     </tr>
     <tr>
-      <td><img src="media/gambar4.png" width="300"></td>
-      <td><img src="media/gambar5.png" width="300"></td>
+      <td><img src="media/gambar4.png" width="200"></td>
+      <td><img src="media/gambar5.png" width="200"></td>
       <td>>&nbsp;</td>
       <td>&nbsp;</td>
     </tr>
@@ -199,37 +203,37 @@ if (!isset($_SESSION['username'])) {
       <td>&nbsp;</td>
     </tr>
     <tr>
-      <td rowspan="3"><img src="media/gambar6.png" width="300"></td>
-      <td rowspan="3"><img src="media/gambar7.png" width="300"></td>
-      <td><img src="media/gambar8.png" width="300"></td></td>
+      <td rowspan="3"><img src="media/gambar6.png" width="200"></td>
+      <td rowspan="3"><img src="media/gambar7.png" width="200"></td>
+      <td><img src="media/gambar8.png" width="200"></td></td>
       <td></td>
     </tr>
     <tr>
-      <td><img src="media/gambar9.png" width="300"></td>
+      <td><img src="media/gambar9.png" width="200"></td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
     </tr>
     <tr>
-      <td><img src="media/gambar10.png" width="300"></td>
+      <td><img src="media/gambar10.png" width="200"></td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
     </tr>
      <tr>
-      <td rowspan="3"><img src="media/gambar11.png" width="300"></td>
-      <td rowspan="3"><img src="media/gambar12.png" width="300"></td>
-      <td><img src="media/gambar13.png" width="300"></td></td>
+      <td rowspan="3"><img src="media/gambar11.png" width="200"></td>
+      <td rowspan="3"><img src="media/gambar12.png" width="200"></td>
+      <td><img src="media/gambar13.png" width="200"></td></td>
       <td></td>
     </tr>
     <tr>
-      <td><img src="media/gambar14.png" width="300"></td>
+      <td><img src="media/gambar14.png" width="200"></td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
     </tr>
     <tr>
-      <td><img src="media/gambar15.png" width="300"></td>
+      <td><img src="media/gambar15.png" width="200"></td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
@@ -244,7 +248,6 @@ if (!isset($_SESSION['username'])) {
 </table>
 </body>
 </html>
-
 
 
    
