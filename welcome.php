@@ -163,6 +163,89 @@ if (!isset($_SESSION['username'])) {
       </div>
           </section>
 
+//
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body background="media/1.jpg">
+<table width="561" border="1">
+  <tbody>
+    <tr>
+      <td><img src="media/Picture2.png" width="300"></td>
+      <td><img src="media/Picture7.png" width="300"></td>
+      <td><img src="media/Picture8.png" width="300"></td>
+      
+    </tr>
+    <tr>
+      <td rowspan="3"><img src="media/gambar1.png" width="300"></td>
+      <td rowspan="3"><img src="media/gambar2.png" width="300"></td>
+      <td><img src="media/gambar3.png" width="300"></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img src="media/gambar4.png" width="300"></td>
+      <td><img src="media/gambar5.png" width="300"></td>
+      <td>>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><img src="media/gambar6.png" width="300"></td>
+      <td rowspan="3"><img src="media/gambar7.png" width="300"></td>
+      <td><img src="media/gambar8.png" width="300"></td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img src="media/gambar9.png" width="300"></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td><img src="media/gambar10.png" width="300"></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+     <tr>
+      <td rowspan="3"><img src="media/gambar11.png" width="300"></td>
+      <td rowspan="3"><img src="media/gambar12.png" width="300"></td>
+      <td><img src="media/gambar13.png" width="300"></td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img src="media/gambar14.png" width="300"></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td><img src="media/gambar15.png" width="300"></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
+
+
 
    
 
